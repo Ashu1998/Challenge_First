@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
     public fun clickFun(view: View){
         //One comment added
         //Second comment added
+        //Third comment addedd
         val myIntent = Intent(this,SecondActivity::class.java)
         myIntent.putExtra("Number",randomNum.toString())
         startActivity(myIntent)
