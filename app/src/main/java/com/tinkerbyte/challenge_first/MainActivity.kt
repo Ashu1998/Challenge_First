@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     public fun clickFun(view: View){
-
+        //One comment added
         val myIntent = Intent(this,SecondActivity::class.java)
         myIntent.putExtra("Number",randomNum.toString())
         startActivity(myIntent)
